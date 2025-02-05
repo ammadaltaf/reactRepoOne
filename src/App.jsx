@@ -3,6 +3,7 @@ import './App.css'
 import {EventProps} from './EventProps'
 import {EventPropagation} from './EventPropagation'
 import {UseStateHook} from './hooks/UseStateHook'
+import {LiftingStateUp} from './LiftingStateUp'
 const  App = () => {
 
   return (
@@ -11,7 +12,8 @@ const  App = () => {
     <EventProps/><br/>
     <h2>Event Propagation</h2>
     <EventPropagation/><br/>
-    <UseStateHook/>
+    <UseStateHook/><br/>
+    <LiftingStateUp/>
     </>
 );
 }
